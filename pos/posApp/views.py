@@ -37,7 +37,7 @@ def logoutuser(request):
     logout(request)
     return redirect('/')
 
-# Create your views here.
+
 @login_required
 def home(request):
     now = datetime.now()
